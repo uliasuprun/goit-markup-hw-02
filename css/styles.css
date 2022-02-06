@@ -24,7 +24,6 @@ body {
 }
 .logo-blue {
     font-family: Raleway, sans-serif;
-    text-decoration: none;
     color: var(--main-accent-color);
     font-weight: bold;
     font-size: 26px;
@@ -37,9 +36,10 @@ body {
 .site-ul {
     list-style: none;
 }
-.site-nav-item {
+.text-decoration-nav {
     text-decoration: none;
-    font-style: normal;
+}
+.site-nav-item {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -51,8 +51,6 @@ body {
     color: var(--main-accent-color);
 } 
 .contacts-item {
-    text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -76,6 +74,7 @@ body {
     color: var(--main-light-color);
 }
 .hero-button {
+    font-family: inherit;
     color: var(--main-light-color);
     background-color: var(--main-accent-color);
     cursor: pointer;
@@ -137,22 +136,22 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
-.page-footer{
+.page-footer {
     background-color: var(--hero-footer-background);
 }
-.logo-light{
+.logo-light {
     color: var(--main-light-color);
 }
-.footer-address {
+.address {
     font-style: normal;
+}    
+.footer-address {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-light-color);
     }
 .footer-contacts-item {
-    text-decoration: none;
-    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -167,6 +166,7 @@ body {
 }
 
 .portfolio-button {
+    font-family: inherit;
     height: 38px;
     background-color: var(--portfolio-buttons-color);
     cursor: pointer;
